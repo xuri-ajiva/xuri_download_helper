@@ -45,7 +45,7 @@ for (const b of document.querySelectorAll("b[class='uk-heading-bullet']")) {
         setTimeout(() => {
           wnd.close();
           clearInterval(i);
-        }, 40000);
+        }, 60000);
       }
   });
   btn.text = "Download All from " + b.textContent.substring(5).trimEnd(":");
